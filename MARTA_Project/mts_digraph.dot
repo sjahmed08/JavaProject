@@ -1,0 +1,10 @@
+digraph G
+{
+  vehicle1 [ label="vehicle#1 | 0 riding", color="#000077"];
+
+  stop1 [ label="stop#1 | 0 waiting", color="#000077"];
+  stop2 [ label="stop#2 | 0 waiting", color="#0000FF"];
+
+  stop2 -> vehicle1 [ label=" dep" ];
+  vehicle1 -> stop1 [ label=" arr" ];
+}

@@ -1,0 +1,12 @@
+add_stop,1,1,1,1.0,1.0
+add_stop,2,2,2,2.0,2.0
+add_route,1,1,1
+extend_route,1,1,1.0,70,10
+extend_route,1,2,1.0,70,10
+add_vehicle,1,1,1,0,1,1,true
+add_event,0,move_vehicle,1
+set_schedule,1,11
+step_multi,200,100,1,1
+system_report
+display_model
+quit

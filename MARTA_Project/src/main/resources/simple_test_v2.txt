@@ -1,0 +1,36 @@
+add_stop,0,Appleville,5,0.0,0.08
+add_stop,1,Banana Bayou,0,0.04,0.1
+add_stop,2,Star City,0,0.08,0.16
+add_stop,3,Cherry City,0,0.16,0.1
+add_stop,4,West Side,0,0.01,0.01
+add_stop,5,South Side,0,0.04,0.01
+add_stop,6,East Side,0,0.1,0.02
+add_stop,7,Central City,0,0.04,0.05
+add_route,0,10,Express
+add_route,1,16,Perimeter
+extend_route,0,5
+extend_route,0,7
+extend_route,0,1
+extend_route,0,2
+extend_route,0,1
+extend_route,0,7
+extend_route,1,4
+extend_route,1,0
+extend_route,1,1
+extend_route,1,2
+extend_route,1,3
+extend_route,1,6
+extend_route,1,5
+add_vehicle,6,0,0,0,9,50,false
+add_vehicle,11,1,0,0,6,30,false
+add_vehicle,15,1,2,0,6,30,false
+add_vehicle,17,1,4,0,6,30,false
+add_event,0,move_vehicle,6
+add_event,0,move_vehicle,11
+add_event,0,move_vehicle,15
+add_event,0,move_vehicle,17
+set_schedule,5,23
+step_multi,2000,100,2,3
+system_report
+display_model
+quit
